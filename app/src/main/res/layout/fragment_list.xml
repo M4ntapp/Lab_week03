@@ -31,7 +31,9 @@
             android:clickable="true"
             android:focusable="true"
             android:background="?android:attr/selectableItemBackground"
-            android:text="@string/affogato_title"/>
+            android:text="@string/affogato_title"
+            android:minHeight="48dp"
+            android:gravity="center_vertical" />
 
         <TextView
             android:id="@+id/americano"
@@ -41,7 +43,9 @@
             android:clickable="true"
             android:focusable="true"
             android:background="?android:attr/selectableItemBackground"
-            android:text="@string/americano_title"/>
+            android:text="@string/americano_title"
+            android:minHeight="48dp"
+            android:gravity="center_vertical" />
 
         <TextView
             android:id="@+id/latte"
@@ -51,7 +55,9 @@
             android:clickable="true"
             android:focusable="true"
             android:background="?android:attr/selectableItemBackground"
-            android:text="@string/latte_title"/>
+            android:text="@string/latte_title"
+            android:minHeight="48dp"
+            android:gravity="center_vertical" />
 
     </LinearLayout>
 </ScrollView>
